@@ -11,10 +11,10 @@ Random random = new Random();
 int empCheck = random.Next(0, 3);
 switch (empCheck)
 {
-    case 0: Console.WriteLine("Employee is Present part Time");
+    case 0: IS_PART_TIME: Console.WriteLine("Employee is Present part Time");
         empHrs = 4;
         break;
-    case 1: Console.WriteLine("Employee is Present full Time");
+    case 1: IS_FULL_TIME: Console.WriteLine("Employee is Present full Time");
         empHrs = 8;
         break;
     default : Console.WriteLine("Employee is Absent");
