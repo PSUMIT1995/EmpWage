@@ -32,5 +32,5 @@ for (int day = 0; day < NUM_OF_WORKING_DAYS; day++)
     totalEmpwage += empWage;
     Console.WriteLine("Emp Wage : " + empWage);
 }
-Console.WriteLine("Total Emp Wage :" + totalEmpwage);
+Console.WriteLine("Total Emp Wage : " + totalEmpwage);
 
